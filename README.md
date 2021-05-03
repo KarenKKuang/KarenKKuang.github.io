@@ -1,7 +1,12 @@
 # Project 3
 
-See the course site for the project's requirements.
+See the course web page for the project's requirements.
 
 # Submission Instructions
 
-Stage, commit, and push your changed files. Then complete the submission form: <https://cornell.ca1.qualtrics.com/jfe/form/SV_ekRwrDA4MccYt0O>
+See the respective **submit-_milestone_.md** file for each submission.
+
+| Submission  | Instructions                       |
+| ----------- | ---------------------------------- |
+| Milestone 1 | [submit-m1.md](submit-m1.md)       |
+| Final       | [submit-FINAL.md](submit-FINAL.md) |

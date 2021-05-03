@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apple Festive - Events</title>
+    <link href="styles/index.css" type="text/css" rel="stylesheet" />
+    <script src="scripts/jquery-3.5.1.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript" async></script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html" class = "nav_link">Home</a></li>
+                <li><a href="events.html" class = "nav_link">Events</a></li>
+                <li><a href="transportation.html" class = "nav_link">Transportation</a></li>
+                <li><a href="health.html" class = "nav_link">Health & Safety</a></li>
+            </ul>
+        </nav>
+        <!-- Background Image Source: Shopper's Guide to Pesticides in Produce https://www.ewg.org/foodnews/apples.php -->
+        <h1>Apple Harvest Festival</h1>
+    </header>
+    <main>
+        <div class = "announcement">
+            <p>Admist COVID-19, the 2020 Apple Festive will be Distant and De-densified. Be Safe & Socially Responsible while enjoying the festival!<p>
+        </div>
+        <div id = "timeline" class = "start_content">
+            <h2>Events Timeline</h2>
+            <ul class = "time">
+                <li>Open Air Apple Farmers Market</li>
+                <li>Monday, Sept. 28 - Friday, Oct. 2 | 12:00pm - 4:00pm</li>
+                <li>The Commons</li>
+            </ul>
+            <ul class = "time">
+                <li>2020 Apple & Cider Trail</li>
+                <li>Monday, Sept. 28 - Oct. 4 | All day long depending on the storer owners</li>
+                <li>Shops & Restaurants around Downtown Ithaca</li>
+            </ul>
+            <ul class = "time">
+                <li>Finger Lakes Cider Week</li>
+                <li>Oct. 2 - Oct. 11</li>
+                <li><a class = "external_link" href = "https://ciderweekflx.com/flx/locations/">Open the Map for Locations</a></li>
+            </ul>
+        </div>
+        <div class = "middle_content events events2">
+            <h2>Apple Harvest Open Air Farmers Market</h2>
+            <p>Downtown Ithaca will welcome a couple farmers to sell their harvest bounty throughout the week in a socially distant, de-densified version of a farmers market.</p>
+
+            <p>During the day, the farms will have pop-up farm stands each afternoon on the commons to sell pre-packed Apples, Cider and other fall produce for contactless grab & go.</p>
+
+            <h3>Participating Vendors:</h3>
+            <ul>
+                <li>Robbies Produce Farm Market</li>
+                <li>AJ Teeter Farm</li>
+                <li>Littletree Orchards</li>
+                <li>Baked Up & Bubbled Over</li>
+                <li>Bakers Acres</li>
+                <li>Creamcycle</li>
+            </ul>
+            <div>
+                <h3 id="form-heading">Request Vendors Information</h3>
+                <form id="request-form" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2020fa/submit.php" novalidate>
+
+                        <div id="feedback-email" class="feedback hidden">Please enter a valid email address.</div>
+                        <div class="label-input">
+                            <label for="request-email">Email:</label>
+                            <input type="email" name="email" id="request-email" required/>
+                        </div>
+
+                        <div id="feedback-information" class="feedback hidden">Please check at least one box.</div>
+                        <label for="request-time">What would you like to know about the vendors:</label>
+						<div class="label-input">
+							<input type="checkbox" name="time" id="request-time"/>
+							<label for="request-time">Open and Close Time</label>
+						</div>
+						<div class="label-input">
+							<input type="checkbox" name="product" id="request-product"/>
+							<label for="request-product">Type of Product</label>
+						</div>
+                        <div class="label-input">
+							<input type="checkbox" name="size" id="request-size"/>
+							<label for="request-size">Booth Size</label>
+						</div>
+
+                        <label>Would you like to be notified if there are new vendors joining?</label>
+                        <div>
+                          <input type="radio" id="yes-notification" name="notification" value="yes-notification" checked>
+                          <label for="yes-notification">Yes</label>
+
+                          <input type="radio" id="no-notification" name="notification" value="no-notification">
+                          <label for="no-notification">No</label>
+                        </div>
+
+                        <label>Would you like to subscribe to our newsletters?</label>
+                        <div>
+                          <input type="radio" id="yes-news" name="news" value="yes-news" checked>
+                          <label for="yes-news">Yes</label>
+
+                          <input type="radio" id="no-news" name="news" value="no-news">
+                          <label for="no-news">No</label>
+                        </div>
+
+                        <div id="feedback-subscription-email" class="feedback hidden">Please enter a valid email address.</div>
+                        <div class="label-input">
+                            <label for="request-subscription-email" id="subscription-email-label">Subscription Email:</label>
+                            <input type="email" name="email" id="request-subscription-email" required/>
+                        </div>
+
+                    <div class="align-right">
+                        <input id="request-submit" type="submit" value="Request"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class = "middle_content">
+            <div class = "text_img">
+                <div class = "middle_content">
+                    <h2>Apple & Cider Trail</h2>
+                    <p>Celebrate the apple season this year by enjoy a socially distant, contactless, taste-tastic journey of sipping, noshing, & shopping.</p>
+
+                    <p>Apple & Cider Trail is now available! Simply save the map, print & make your plans and let the fruitful week get started. Snap a photo of your experiences throughout the week and share them with us via Instagram or Facebook. Tag us @downtownithaca and hashtag it #FeelingAppleFestive to enter to win. Enjoy ciders by the glass with your meal, juice for purchase, fun apple-inspired novelties, and even sweet and savory dishes showcasing the mighty fruit!</p>
+                </div>
+                <!-- Source: DowntownIthaca https://www.downtownithaca.com/apple-festive/ -->
+                <img src = "images/apple_cider_trial.png" alt = "apple cider trial logo">
+            </div>
+            <div>
+                <h2 id="apple-cider-trial-map">Save the Apple & Cider Trial Map Below!</h2>
+                <!-- Source: DowntownIthaca https://www.downtownithaca.com/apple-festive/ -->
+                <img id = "map" src = "images/map.png" alt = "apple cider trial map">
+            </div>
+        </div>
+        <div class = "end_content events2">
+            <h2>Finger Lakes Cider Week</h2>
+            <p>There are more Ways to Feel Festive!</p>
+
+            <p>As Apple Festive winds down, Cider Week will ramp up with virtual tasting events online as well as Orchard tours and ticketed, socially distant food & cider pairing dinners.</p>
+
+            <p><a class = "external_link" href = "https://ciderweekflx.com/flx/">Learn more about the Cider Week</a></p>
+        </div>
+    </main>
+    <footer>
+        <nav class = "footer-nav">
+            <ul>
+                <li><a href="index.html" class = "nav_link">Home</a></li>
+                <li><a href="events.html" class = "nav_link">Events</a></li>
+                <li><a href="Transportation.html" class = "nav_link">Transportation</a></li>
+                <li><a href="health.html" class = "nav_link">Health & Safety</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p>Copyright &copy; 2018 Downtown Ithaca Alliance</p>
+            <p>Built with love in the heart of the Finger Lakes</p>
+        </div>
+    </footer>
+</body>
+</html>
